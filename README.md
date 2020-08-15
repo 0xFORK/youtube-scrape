@@ -1,5 +1,25 @@
 # YouTube Scrape
+![GitHub repo size](https://img.shields.io/github/repo-size/tes-id/youtube-scrape)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tes-id/youtube-scrape)
+![GitHub top language](https://img.shields.io/github/languages/top/tes-id/youtube-scrape)
+![GitHub last commit](https://img.shields.io/github/last-commit/tes-id/youtube-scrape)
+![GitHub](https://img.shields.io/github/license/tes-id/youtube-scrape)
+
 A YouTube search scraping API
+
+## Deploy To Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+### Reading materials
+- [Common Issues](https://devcenter.heroku.com/articles/troubleshooting-node-deploys#common-issues)
+
+### Config Vars
+```
+heroku config:set NPM_CONFIG_PRODUCTION=false
+heroku config:set NODE_MODULES_CACHE=false
+```
+
 ## Get search results
 The base url to get search results, is as follows:<br>
 ```
@@ -33,7 +53,8 @@ Here is an example call:
 ```
 http://youtube-scrape.herokuapp.com/api/search?q=herman%20fassett&page=1
 ```
-Example output:
+
+### Example Output
 ```
 {
 	"results": [{
@@ -371,7 +392,3 @@ Example output:
 	"parser": "json_format"
 }
 ```
-Deploy To Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
