@@ -2,7 +2,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/tes-id/youtube-scrape)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tes-id/youtube-scrape)
 ![GitHub top language](https://img.shields.io/github/languages/top/tes-id/youtube-scrape)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/tes-id/youtube-scrape)
+[![Known Vulnerabilities](https://snyk.io/test/github/tes-id/youtube-scrape/badge.svg)](https://snyk.io/test/github/tes-id/youtube-scrape)
 ![GitHub last commit](https://img.shields.io/github/last-commit/tes-id/youtube-scrape)
 ![GitHub](https://img.shields.io/github/license/tes-id/youtube-scrape)
 
