@@ -7,6 +7,6 @@
     "dependencies": {
         "express": "latest",
         "request": "2.88.2",
-        "cheerio": "latest"
+        "cheerio": "1.0.0"
     }
 }
